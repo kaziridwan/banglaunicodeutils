@@ -1,0 +1,31 @@
+{
+  "timeZone": "Asia/Dhaka",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Docs",
+        "version": "v1",
+        "serviceId": "docs"
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/documents"
+  ],
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Turn on Bijoy Converter",
+      "logoUrl": "https://www.gstatic.com/images/branding/product/1x/translate_24dp.png",
+      "layoutProperties": {
+        "primaryColor": "#2772ed"
+      },
+     "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    },
+    "docs": {
+    }
+  }
+}
